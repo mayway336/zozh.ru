@@ -1,0 +1,51 @@
+body {
+    margin-left: 50px;
+    width: 960px;
+    height: 1660px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    background-color: #49D4FF;
+    color: black;
+    font-family: JejuHallasan;
+    font-size: 20px;
+    text-align: center;
+    width: 960px;
+    height: 130px;
+}
+
+header nav {
+    background-color: #00B2FF;
+    width: 960px;
+    height: 70px;
+}
+
+header nav a{
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: JejuHallasan;
+    color: black;
+    width: 100px;
+    height: 50px;
+    margin: 10px 40px;
+}
+
+.pres {
+    font-weight: bold;
+    background-color: #8FDDFF;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: inter;
+}
