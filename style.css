@@ -20,6 +20,10 @@ header div {
     height: 130px;
 }
 
+header div h1 {
+    padding-top: 10px;
+}
+
 header nav {
     background-color: #00B2FF;
     width: 960px;
@@ -27,6 +31,7 @@ header nav {
 }
 
 header nav a{
+    font-weight: bolder;
     font-style: italic;
     text-align: center;
     text-decoration: none;
@@ -38,9 +43,22 @@ header nav a{
     margin: 10px 40px;
 }
 
-.pres {
-    font-weight: bold;
+.pres a {
+    padding: 0px;
     background-color: #8FDDFF;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+
+header nav a:hover{
+    font-size: 24px;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    font-weight: bold;
 }
 
 h2 {
@@ -48,4 +66,23 @@ h2 {
     font-size: 35px;
     font-weight: bold;
     font-family: inter;
+}
+
+section {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.ukaz {
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 385px;
+    background-color: #96DCFF;
+    border-radius: 30px;
 }
