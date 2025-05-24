@@ -1,13 +1,14 @@
 body {
-    margin-left: 50px;
     width: 960px;
     height: 1660px;
+    margin: 0px;
 }
 
 header nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1000px;
 }
 
 header div {
@@ -16,7 +17,7 @@ header div {
     font-family: JejuHallasan;
     font-size: 20px;
     text-align: center;
-    width: 960px;
+    width: 1000px;
     height: 130px;
 }
 
@@ -26,8 +27,9 @@ header div h1 {
 
 header nav {
     background-color: #00B2FF;
-    width: 960px;
+    width: 1000px;
     height: 70px;
+    text-align: center;
 }
 
 header nav a{
@@ -35,7 +37,7 @@ header nav a{
     font-style: italic;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
     font-family: JejuHallasan;
     color: black;
     width: 100px;
@@ -49,12 +51,17 @@ header nav a{
     display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 55px;
+}
+
+.pres a:hover {
+    width: 130px;
+    height: 60px;
 }
 
 header nav a:hover{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     width: 120px;
     height: 60px;
@@ -63,7 +70,7 @@ header nav a:hover{
 
 h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     font-family: inter;
 }
@@ -76,8 +83,9 @@ section {
 }
 
 .ukaz {
+    text-decoration: none;
     text-align: center;
-    margin: 0px;
+    margin: 0px 50px;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -85,4 +93,72 @@ section {
     height: 385px;
     background-color: #96DCFF;
     border-radius: 30px;
+}
+
+.ukaz-p {
+    color: black;
+    margin: 23px;
+    text-align: center;
+    font-weight: light;
+    font-size: 40px;
+    width: 275px;
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.ukaz img {
+    margin-top: 19px;
+}
+
+.ukaz:hover {
+    border: 10px solid black;
+    border-style: dotted double;
+    box-shadow: black 10px 10px 15px 5px;
+}
+
+footer {
+    margin-top: 100px;
+    width: 970px;
+    padding: 0px 15px;
+    height: 180px;
+    color: white;
+    background-color: #0072A8;
+    margin-bottom: 0px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img {
+    margin-left: 150px;
+}
+
+.page1234-text {
+    width: 900px;
+    height: 1100px;
+    background-color: #96DCFF;
+    color: black;
+    margin: 25px;
+    padding: 19px 20px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.page1-text h2{
+    text-align: center;
+}
+
+.img-1234 {
+    margin: 50px 40px;
+}
+
+li {
+    margin: 10px;
+}
+
+.vazhno {
+    font-size: 30px;
+    font-weight: bold;
 }
