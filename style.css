@@ -1,35 +1,34 @@
-body {
-    width: 960px;
-    height: 1660px;
-    margin: 0px;
-}
-
 header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+}
+
+main {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 header div {
+    margin: 0px;
     background-color: #49D4FF;
     color: black;
     font-family: JejuHallasan;
     font-size: 20px;
     text-align: center;
-    width: 1000px;
     height: 130px;
 }
 
 header div h1 {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 header nav {
     background-color: #00B2FF;
-    width: 1000px;
-    height: 70px;
     text-align: center;
+    margin-top: 0px;
+    height: 70px;
 }
 
 header nav a{
@@ -42,7 +41,7 @@ header nav a{
     color: black;
     width: 100px;
     height: 50px;
-    margin: 10px 40px;
+    margin: 10px 100px;
 }
 
 .pres a {
@@ -76,6 +75,7 @@ h2 {
 }
 
 section {
+    margin: 40px 0px;
     text-align: center;
     display: inline-block;
     justify-content: center;
@@ -85,12 +85,12 @@ section {
 .ukaz {
     text-decoration: none;
     text-align: center;
-    margin: 0px 50px;
-    display: inline-block;
+    margin: 25px 150px;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 320px;
-    height: 385px;
+    width: 350px;
+    height: 420px;
     background-color: #96DCFF;
     border-radius: 30px;
 }
@@ -112,46 +112,42 @@ section {
 }
 
 .ukaz:hover {
-    border: 10px solid black;
+    border: 20px solid black;
     border-style: dotted double;
     box-shadow: black 10px 10px 15px 5px;
 }
 
 footer {
-    margin-top: 100px;
-    width: 970px;
-    padding: 0px 15px;
+    margin: 0px;
     height: 180px;
     color: white;
     background-color: #0072A8;
     margin-bottom: 0px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
 }
 
 .footer-img {
     margin-left: 150px;
+    
 }
 
 .page1234-text {
-    width: 900px;
-    height: 1100px;
+    margin: 0px 100px 50px 100px;
     background-color: #96DCFF;
     color: black;
-    margin: 25px;
     padding: 19px 20px;
     border-radius: 30px;
     font-size: 22px;
     font-weight: normal;
 }
 
-.page1-text h2{
+.page1234-text h2{
     text-align: center;
 }
 
 .img-1234 {
-    margin: 50px 40px;
+    margin: 25px 0px;
+    text-align: center;
 }
 
 li {
